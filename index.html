@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodExpress 2025 - Delivery de Comida Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">
+            <img src="/assets/icons8-entrega-100.png" alt="FoodExpress Logo">
+            <h1>FoodExpress</h1>
+        </a>
+        
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="fas fa-utensils"></i> Restaurantes</a></li>
+                <li><a href="#"><i class="fas fa-list"></i> Categorías</a></li>
+                <li><a href="#"><i class="fas fa-percent"></i> Ofertas</a></li>
+                <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="user-actions">
+            <button class="btn btn-secondary"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</button>
+            <button class="btn btn-primary"><i class="fas fa-user-plus"></i> Registrarse</button>
+            <button class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">3</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="#" class="logo">
+                <img src="/assets/icons8-entrega-100.png" alt="FoodExpress Logo">
+                <h1>FoodExpress</h1>
+            </a>
+            <button class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="fas fa-utensils"></i> Restaurantes</a></li>
+                <li><a href="#"><i class="fas fa-list"></i> Categorías</a></li>
+                <li><a href="#"><i class="fas fa-percent"></i> Ofertas</a></li>
+                <li><a href="#"><i class="fas fa-phone"></i> Contacto</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i> Ayuda</a></li>
+                <li><a href="#"><i class="fas fa-star"></i> Favoritos</a></li>
+                <li><a href="#"><i class="fas fa-history"></i> Historial</a></li>
+            </ul>
+        </nav>
+        
+        <div class="mobile-user-actions">
+            <button class="btn btn-primary" style="width: 100%;"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</button>
+            <button class="btn btn-secondary" style="width: 100%;"><i class="fas fa-user-plus"></i> Registrarse</button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>La comida que amas, entregada en minutos</h2>
+            <p>Descubre los mejores restaurantes de tu ciudad y recibe tu pedido en menos de 30 minutos. Más de 5,000 opciones disponibles las 24 horas.</p>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="¿Qué te apetece hoy?">
+                <button><i class="fas fa-search"></i> Buscar</button>
+            </div>
+            
+            <div class="delivery-info">
+                <div class="delivery-stat">
+                    <i class="fas fa-bolt"></i>
+                    <div>
+                        <h4>Entrega rápida</h4>
+                        <p>En menos de 30 min</p>
+                    </div>
+                </div>
+                
+                <div class="delivery-stat">
+                    <i class="fas fa-star"></i>
+                    <div>
+                        <h4>Calidad garantizada</h4>
+                        <p>+50,000 reseñas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Comida delivery">
+            
+            <div class="floating-elements">
+                <div class="floating-element">
+                    <img src="/assets/icons8-hamburger-48.png" alt="Burger">
+                </div>
+                <div class="floating-element">
+                    <img src="/assets/icons8-pizza-48.png" alt="Pizza">
+                </div>
+                <div class="floating-element">
+                    <img src="/assets/icons8-sushi-emoji-48.png" alt="Sushi">
+                </div>
+            </div>
+        </div>
+        
+        <div class="trusted-brands">
+            <p>Confían en nosotros:</p>
+            <div class="brands">
+                <img src="/assets/icons8-aplicación-mcdonalds-240.png" alt="McDonald's">
+                <img src="/assets/icons8-logotipo-burger-king-240.png" alt="Burger King">
+                <img src="/assets/icons8-starbucks-240.png" alt="Starbucks">
+                <img src="/assets/icons8-foodpanda-240.png" alt="KFC">
+                <img src="/assets/icons8-dunkin-donuts-240.png" alt="Domino's">
+            </div>
+        </div>
+    </section>
+
+ 
+    <section class="categories">
+        <div class="section-title">
+            <h3>Explora por categoría</h3>
+            <p>Encuentra tus platillos favoritos entre nuestras diversas categorías culinarias</p>
+        </div>
+        
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-hamburger"></i>
+                </div>
+                <h4>Hamburguesas</h4>
+                <p>+200 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-pizza-slice"></i>
+                </div>
+                <h4>Pizza</h4>
+                <p>+150 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-drumstick-bite"></i>
+                </div>
+                <h4>Pollo</h4>
+                <p>+180 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-fish"></i>
+                </div>
+                <h4>Mariscos</h4>
+                <p>+120 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-ice-cream"></i>
+                </div>
+                <h4>Postres</h4>
+                <p>+90 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h4>Comida Mexicana</h4>
+                <p>+150 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h4>Vegetariano</h4>
+                <p>+80 opciones</p>
+            </div>
+            
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-bread-slice"></i>
+                </div>
+                <h4>Desayunos</h4>
+                <p>+100 opciones</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="popular-restaurants">
+        <div class="section-header">
+            <div class="section-title">
+                <h3>Restaurantes populares</h3>
+                <p>Los favoritos de nuestros clientes con las mejores calificaciones</p>
+            </div>
+            <a href="#" class="view-all">Ver todos <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="restaurant-grid">
+            <div class="restaurant-card">
+                <div class="restaurant-image">
+                    <img src="https://cdn.pixabay.com/photo/2017/12/28/11/38/food-3045012_640.jpg" alt="Burger Palace">
+                    <div class="restaurant-rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.8</span>
+                    </div>
+                </div>
+                <div class="restaurant-info">
+                    <h4>Burger Palace <span>Nuevo</span></h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 1.2 km de distancia</p>
+                    <p>Hamburguesas • Americano • Comida rápida</p>
+                    <div class="delivery-time">
+                        <p>Entrega: <span>15-25 min</span></p>
+                        <p>$50 • $100</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="restaurant-card">
+                <div class="restaurant-image">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Pizza Heaven">
+                    <div class="restaurant-rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.9</span>
+                    </div>
+                </div>
+                <div class="restaurant-info">
+                    <h4>Pizza Heaven</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 0.8 km de distancia</p>
+                    <p>Pizza • Italiana • Pasta</p>
+                    <div class="delivery-time">
+                        <p>Entrega: <span>10-20 min</span></p>
+                        <p>$80 • $150</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="restaurant-card">
+                <div class="restaurant-image">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639_640.jpg" alt="Sushi Master">
+                    <div class="restaurant-rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.7</span>
+                    </div>
+                </div>
+                <div class="restaurant-info">
+                    <h4>Sushi Master <span>Promo</span></h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 1.5 km de distancia</p>
+                    <p>Sushi • Japonesa • Asiática</p>
+                    <div class="delivery-time">
+                        <p>Entrega: <span>20-30 min</span></p>
+                        <p>$120 • $250</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="special-offers">
+        <div class="section-title">
+            <h3>Ofertas especiales</h3>
+            <p>Aprovecha estas promociones exclusivas por tiempo limitado</p>
+        </div>
+        
+        <div class="offer-card">
+            <div class="offer-content">
+                <h3>50% OFF en tu primer pedido</h3>
+                <p>Usa el código BIENVENIDO al pagar y obtén la mitad de descuento en tu primera compra. Válido hasta el 30/11/2025.</p>
+                <button class="btn btn-dark"><i class="fas fa-shopping-bag"></i> Ordenar ahora</button>
+            </div>
+            <div class="offer-image">
+                <img src="https://cdn.pixabay.com/photo/2017/08/10/05/44/pizza-2618726_640.jpg" alt="Oferta especial">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="how-it-works">
+        <div class="section-title">
+            <h3>¿Cómo funciona?</h3>
+            <p>Recibe tu comida en 3 simples pasos</p>
+        </div>
+        
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Elige tu comida</h4>
+                <p>Explora entre miles de restaurantes y selecciona tus platillos favoritos.</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Realiza el pago</h4>
+                <p>Paga de forma segura con tarjeta, efectivo o mediante nuestra app.</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Disfruta tu comida</h4>
+                <p>Recibe tu pedido en la puerta de tu casa en menos de 30 minutos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download -->
+    <section class="app-download">
+        <div class="section-title">
+            <h3>Descarga nuestra app</h3>
+            <p>Ordena más rápido, guarda tus direcciones favoritas y recibe ofertas exclusivas</p>
+        </div>
+        
+        <div class="app-buttons">
+            <a href="#" class="app-btn pulse">
+                <i class="fab fa-apple"></i>
+                <div class="app-btn-text">
+                    <p>Descárgalo en</p>
+                    <h5>App Store</h5>
+                </div>
+            </a>
+            
+            <a href="#" class="app-btn pulse">
+                <i class="fab fa-google-play"></i>
+                <div class="app-btn-text">
+                    <p>Disponible en</p>
+                    <h5>Google Play</h5>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h3>Lo que dicen nuestros clientes</h3>
+            <p>Más de 1 millón de usuarios satisfechos</p>
+        </div>
+        
+        <div class="testimonial-slider">
+            <div class="testimonial-track">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">FoodExpress ha cambiado mi forma de comer. La comida llega siempre caliente y en el tiempo prometido. ¡La mejor app de delivery que he usado!</p>
+                        
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María González">
+                            </div>
+                            <div class="author-info">
+                                <h5>María González</h5>
+                                <p>Cliente desde 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">Increíble variedad de restaurantes. Siempre encuentro algo nuevo para probar. El servicio al cliente es excelente cuando hay algún problema.</p>
+                        
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Mendoza">
+                            </div>
+                            <div class="author-info">
+                                <h5>Carlos Mendoza</h5>
+                                <p>Cliente desde 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">Me encanta poder ver el recorrido del repartidor en tiempo real. Las promociones son geniales y ahorro mucho comparado con otros servicios.</p>
+                        
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ana Rodríguez">
+                            </div>
+                            <div class="author-info">
+                                <h5>Ana Rodríguez</h5>
+                                <p>Cliente desde 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-nav">
+                <div class="slider-dot active"></div>
+                <div class="slider-dot"></div>
+                <div class="slider-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="section-title">
+            <h3>Suscríbete a nuestro newsletter</h3>
+            <p>Recibe ofertas exclusivas y novedades directamente en tu correo</p>
+        </div>
+        
+        <form class="newsletter-form">
+            <input type="email" placeholder="Ingresa tu correo electrónico">
+            <button type="submit"><i class="fas fa-paper-plane"></i> Suscribirse</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h4>FoodExpress</h4>
+                <p>La mejor plataforma de delivery de comida en Latinoamérica. Conectamos a los mejores restaurantes con clientes exigentes.</p>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Compañía</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Acerca de nosotros</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Carreras</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Prensa</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Socios</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Para restaurantes</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Únete a nosotros</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Centro de socios</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Recursos</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Ayuda y soporte</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Chat en vivo</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> foodexpress@contacto.com</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> +52 55 1234 5678</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h4>Métodos de pago</h4>
+                <p>Aceptamos todas las principales formas de pago para tu conveniencia.</p>
+                
+                <div class="payment-methods">
+                    <img src="/assets/icons8-visa-50.png" alt="Visa">
+                    <img src="/assets/icons8-mastercard-50.png" alt="Mastercard">
+                    <img src="/assets/icons8-american-express-50.png" alt="American Express">
+                    <img src="/assets/icons8-paypal-50.png" alt="PayPal">
+                    <img src="/assets/icons8-mercado-pago-48.png" alt="Apple Pay">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FoodExpress. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fas fa-file-alt"></i> Términos de servicio</a>
+                <a href="#"><i class="fas fa-lock"></i> Política de privacidad</a>
+                <a href="#"><i class="fas fa-cookie"></i> Política de cookies</a>
+                <a href="#"><i class="fas fa-ad"></i> Configuración de anuncios</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Tu carrito (3)</h3>
+            <button class="close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="cart-items">
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="https://cdn.pixabay.com/photo/2017/12/28/11/38/food-3045012_640.jpg" alt="Hamburguesa">
+                </div>
+                <div class="cart-item-details">
+                    <h4>Hamburguesa Clásica</h4>
+                    <p>Burger Palace</p>
+                    <p>$120.00</p>
+                    
+                    <div class="cart-item-controls">
+                        <div class="quantity-control">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                        <button class="remove-item"><i class="fas fa-trash"></i> Eliminar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Pizza">
+                </div>
+                <div class="cart-item-details">
+                    <h4>Pizza Pepperoni</h4>
+                    <p>Pizza Heaven</p>
+                    <p>$180.00</p>
+                    
+                    <div class="cart-item-controls">
+                        <div class="quantity-control">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                        <button class="remove-item"><i class="fas fa-trash"></i> Eliminar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-item">
+                <div class="cart-item-image">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639_640.jpg" alt="Sushi">
+                </div>
+                <div class="cart-item-details">
+                    <h4>Roll California</h4>
+                    <p>Sushi Master</p>
+                    <p>$150.00</p>
+                    
+                    <div class="cart-item-controls">
+                        <div class="quantity-control">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                        <button class="remove-item"><i class="fas fa-trash"></i> Eliminar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-total">
+            <div class="cart-total-row">
+                <p>Subtotal</p>
+                <p>$450.00</p>
+            </div>
+            <div class="cart-total-row">
+                <p>Envío</p>
+                <p>$30.00</p>
+            </div>
+            <div class="cart-total-row">
+                <p>Impuestos</p>
+                <p>$45.00</p>
+            </div>
+            <div class="cart-total-row total">
+                <p>Total</p>
+                <p>$525.00</p>
+            </div>
+        </div>
+        
+        <button class="checkout-btn"><i class="fas fa-credit-card"></i> Proceder al pago</button>
+    </div>
+
+    
+    <div class="overlay"></div>
+<script src="/js/script.js"></script>
+
+</body>
+</html>
